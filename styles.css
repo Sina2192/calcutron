@@ -1,0 +1,50 @@
+
+*  {
+    font-size: 34px;
+}
+
+body{
+    margin: 35%;
+    margin-top: 5%;
+}
+.rows {
+    display: flex;
+    flex:wrap;
+}
+button {
+    width: 24.5%;
+    height: 120px;;
+    justify-content: space-between;
+    border: 1.5px solid black;
+}
+
+.digit {
+    color: black;
+}
+
+.operand{
+    background-color: darkorange;
+    color: white;
+}
+
+#display{
+    display: flex;
+    flex: wrap;
+    height: 100px;
+    background-color:black;
+    color: white;
+    width: 98%;
+    justify-content: right;
+    align-items: center;
+    font-family: monospace;
+    font-size:44px;
+}
+
+#zero {
+    width: 73.5%;
+}
+
+#clear {
+    width: 49%;
+    justify-content: space-between;
+}
